@@ -1,0 +1,9 @@
+Homepage 1440px: section order, unified weekly module, no horizontal overflow — passed
+Homepage 768px: section order, unified weekly module, no horizontal overflow — passed
+Homepage 390px: section order, unified weekly module, no horizontal overflow — passed
+Homepage 320px: section order, unified weekly module, no horizontal overflow — passed
+All eight notebook chapters and wraparound controls — passed
+Unconfigured signup does not claim success — passed
+Diagnostic → simulator and live model updates — passed
+All local links/anchors, supporting pages at 320/390px, mobile menu, Escape — passed
+No JavaScript runtime errors

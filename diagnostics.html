@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Business diagnostics | Cavanagh Management Group</title>
+  <meta name="description" content="Cavanagh Management Group helps businesses understand what isn't working, align their people and systems, and build what comes next.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="homepage.css">
+</head>
+
+<body>
+
+  <!-- =========================
+       HEADER
+  ========================== -->
+
+  <header class="site-header">
+
+    <a href="index.html" class="brand">
+      <img src="cmg-official-logo.png" alt="Cavanagh Management Group">
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="main-nav" id="mainNav">
+
+      <a href="index.html#this-week">ARTICLES</a>
+
+      <div class="nav-dropdown">
+        <button class="nav-drop-button">
+          CMG STRATEGIES <span>+</span>
+        </button>
+
+        <div class="dropdown-menu">
+          <a href="consulting.html#leadership">Leadership</a>
+          <a href="consulting.html#analyze">Operations</a>
+          <a href="consulting.html#growth">Growth</a>
+        </div>
+      </div>
+
+      <div class="nav-dropdown nav-center">
+        <button class="nav-drop-button">
+          CMG <span>+</span>
+        </button>
+
+        <div class="dropdown-menu">
+          <a href="index.html#difference">About CMG</a>
+          <a href="index.html#framework">Our Framework</a>
+          <a href="index.html#this-week">Knowledge Center</a>
+          <a href="index.html#connect">Contact</a>
+        </div>
+      </div>
+
+      <div class="nav-dropdown">
+        <button class="nav-drop-button">
+          CMG SOLUTIONS <span>+</span>
+        </button>
+
+        <div class="dropdown-menu">
+          <a href="consulting.html#technology">Technology</a>
+          <a href="consulting.html#technology">Automation</a>
+          <a href="consulting.html#technology">Systems</a>
+        </div>
+      </div>
+
+      <a href="insights.html">ARCHIVE</a>
+
+    </nav>
+
+  </header>
+
+
+  <main id="main-content"><section class="module diagnostic-intro"><div class="section-header"><div class="section-number">CMG</div><div><p class="eyebrow">DISCOVER FIRST</p><h2>What’s your story?</h2><p>Choose a starting point. This guided reflection helps frame a conversation; it is not a scored assessment.</p></div></div><div class="notebook-scene">
+
+        <div class="desk-light"></div>
+
+        <div class="notebook">
+
+          <div class="notebook-spine"></div>
+
+          <div class="notebook-page">
+
+            <div class="notebook-header">
+              <span>CMG OPERATIONS NOTEBOOK</span>
+              <span>01 / 08</span>
+            </div>
+
+            <div class="notebook-rule"></div>
+
+            <p class="notebook-label">
+              BEGIN HERE
+            </p>
+
+            <h2>
+              What's your story?
+            </h2>
+
+            <p>
+              Every business reaches a point where something needs to change.
+              You don't have to know what the answer is yet.
+            </p>
+
+            <div class="story-prompt">
+              SELECT THE STATEMENT THAT FEELS CLOSEST.
+            </div>
+
+            <div class="story-options" id="storyOptions">
+
+              <button data-story="building">
+                <span>01</span>
+                I'M BUILDING SOMETHING
+              </button>
+
+              <button data-story="growing">
+                <span>02</span>
+                WE'RE GROWING
+              </button>
+
+              <button data-story="stuck">
+                <span>03</span>
+                WE FEEL STUCK
+              </button>
+
+              <button data-story="changing">
+                <span>04</span>
+                THINGS ARE CHANGING
+              </button>
+
+              <button data-story="struggling">
+                <span>05</span>
+                WE'RE STRUGGLING
+              </button>
+
+              <button data-story="reinventing">
+                <span>06</span>
+                WE'RE REINVENTING
+              </button>
+
+              <button data-story="looking-ahead">
+                <span>07</span>
+                I'M LOOKING AHEAD
+              </button>
+
+              <button data-story="exploring">
+                <span>08</span>
+                I'M JUST EXPLORING
+              </button>
+
+            </div>
+
+            <div class="notebook-footer">
+              <span>CMG / DISCOVER FIRST</span>
+              <span>PAGE 01</span>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="desk-pen"></div>
+
+      </div>
+
+    </section><section class="story-result-section hidden" id="storyResult">
+
+      <div class="section-number">01A</div>
+
+      <div class="result-layout">
+
+        <div>
+          <p class="eyebrow">YOUR STORY / NEXT STEP</p>
+
+          <h2 id="storyResultTitle">
+            LET'S LOOK CLOSER.
+          </h2>
+
+          <p id="storyResultText">
+            Your situation gives us a starting point.
+          </p>
+        </div>
+
+        <div class="result-panel">
+
+          <div class="panel-label">
+            CMG RECOMMENDS
+          </div>
+
+          <h3 id="storyPathTitle">
+            BUSINESS IMPACT MODEL
+          </h3>
+
+          <p id="storyPathText">
+            Explore what may be happening beneath the surface.
+          </p>
+
+          <button class="secondary-button" id="openSimulator">
+            BEGIN IMPACT MODEL
+            <span>→</span>
+          </button>
+
+        </div>
+
+      </div>
+
+    </section><section class="module"><h2>Look beneath the symptoms.</h2><p>Consider where decisions stall, which responsibilities depend on you, and where work is repeated. Bring those observations into a conversation with CMG.</p><a class="primary-button" href="business-impact.html">EXPLORE THE BUSINESS IMPACT SIMULATOR →</a></section></main>
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
+  <footer class="site-footer">
+
+    <div class="footer-brand">
+      <img src="cmg-official-logo.png" alt="CMG">
+      <p>
+        STRATEGY • GROWTH • EVOLUTION
+      </p>
+    </div>
+
+    <div class="footer-links">
+
+      <a href="index.html#framework">CMG</a>
+      <a href="index.html#system">STRATEGIES</a>
+      <a href="index.html#system">SOLUTIONS</a>
+      <a href="index.html#this-week">ARTICLES</a>
+
+    </div>
+
+    
+
+    <div class="footer-bottom">
+      <span>© 2026 CAVANAGH MANAGEMENT GROUP</span>
+      <span>STRATEGY • GROWTH • EVOLUTION</span>
+    </div>
+
+  </footer>
+
+
+  <script src="site-config.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
+
+
